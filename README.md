@@ -28,7 +28,7 @@ $>make SDL2</br>
 $>make</br>
 $>./wolf3d map/name.wolf {wolf | asylum | maze}</br>
 
-<strong>Find the Rick portal for achieve the game and exit the game</strong>
+<strong>Find the Rick portal for achieve the game and exit the Maze</strong>
 
 ## Map Block
 * 	1 : Wall
