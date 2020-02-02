@@ -3,9 +3,10 @@
 
 ## Built with
 	C Language, Racasting method, SDL2 graphic library.
+## Description
+*	3 game in 1. Lunch with 3rd argument {wolf | asylum | maze} for different texture and setup
 
 ## Features
-*	3 game in 1. Lunch with 3rd argument {wolf | asylum | maze} for different texture and setup
 *	Raycasting technique : Wall.
 *	FloorCasting technique : Floor and Ceilling.
 *	Move in any direction {arrow | WASD}
@@ -14,6 +15,7 @@
 *	Enemy with different sprite depending on the game
 *	Shadow and Fog {F}
 *	Minimap {M}
+*	Change floor {Y}
 
 ## How to use
 
@@ -26,6 +28,8 @@ $>make SDL2</br>
 <strong>after SDL2 installed</strong></br>
 $>make</br>
 $>./wolf3d map/name.wolf {wolf | asylum | maze}</br>
+
+<strong>Find the Rick portal for achieve the game and exit the Maze</strong>
 
 ## Map Block
 * 	1 : Wall
@@ -45,3 +49,13 @@ $>./wolf3d map/name.wolf {wolf | asylum | maze}</br>
 1006001/n</br>
 1007001/n</br>
 1111111/n</br>
+
+<strong>Maze</strong>
+
+![alt tag](/img/gitimg/Maze.png)
+<strong>Asylum</strong>
+
+![alt tag](/img/gitimg/asylum.png)
+<strong>Wolf</strong>
+
+![alt tag](/img/gitimg/wolf.png)
