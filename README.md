@@ -1,6 +1,8 @@
 # Wolf3D
 	A Wolfenstein 3D game like. Project for [42 School Paris](https://www.42.fr/) project.
 
+![alt tag](/img/gitimg/Maze.png)
+
 ## Built with
 	C Language, Racasting method, SDL2 graphic library.
 
