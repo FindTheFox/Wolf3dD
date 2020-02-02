@@ -15,6 +15,7 @@
 *	Enemy with different sprite depending on the game
 *	Shadow and Fog {F}
 *	Minimap {M}
+*	Change floor {Y}
 
 ## How to use
 
