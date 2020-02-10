@@ -6,7 +6,7 @@
 /*   By: saneveu <saneveu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/29 15:05:22 by saneveu           #+#    #+#             */
-/*   Updated: 2020/02/02 20:41:08 by saneveu          ###   ########.fr       */
+/*   Updated: 2020/02/10 20:36:50 by saneveu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,10 +66,13 @@ void			free_surfaces(t_wolf *data, int flag)
 {
 	int	i;
 
-	i = SNB;
-	while (i-- && flag == 0)
+	i = SNB - 1;
+	while (i >= 0 && flag == 0)
+	{
 		if (data->sprite[i].img)
 			SDL_FreeSurface(data->sprite[i].img);
+		--i;
+	}
 	if (data->screen && flag == 0)
 		SDL_FreeSurface(data->screen);
 	else if (flag == 1)

@@ -6,7 +6,7 @@
 /*   By: saneveu <saneveu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/02 20:24:12 by saneveu           #+#    #+#             */
-/*   Updated: 2020/02/02 20:39:40 by saneveu          ###   ########.fr       */
+/*   Updated: 2020/02/10 20:37:51 by saneveu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,5 +40,6 @@ void			clean_exit(t_wolf *data, char *str, int token)
 	}
 	if (str)
 		ft_putendl_fd(str, 2);
+	while (1);
 	exit(token ? EXIT_SUCCESS : EXIT_FAILURE);
 }
